@@ -7,7 +7,7 @@ const SmallProjectCard = ({data}) =>{
                                  
                              {/* image space */}   
                               <div className="flex h-[45%]">
-                                       <div className="bg-[url(computer.png)] h-[150px] w-[260px] bg-cover bg-no-repeat  ml-10 mr-8 mt-9  ">
+                                       <div className="bg-[url(./assets/computer.png)] h-[150px] w-[260px] bg-cover bg-no-repeat  ml-10 mr-8 mt-9  ">
                                        
                                              <img src={data.imgLink} alt="" className=" h-[120px] ml-16 mt-3"/>
                                       
