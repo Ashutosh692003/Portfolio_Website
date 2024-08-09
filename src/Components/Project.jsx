@@ -3,8 +3,8 @@ const Project = () =>{
                  
                             let project1 = {
                                    imgLink :"ies_img.png",
-                                   projectName :"Integrated Elgigbiility System",
-                                   projectDescription :"An Integrated Eligibility System using Spring Boot Microservices and React JS and also have Admin Server and Eureka Server. Crowdworkers register users, and an automated STEM-based engine determines eligibility for various plans. The system offers a user-friendly React JS frontend for efficient plan selection.",
+                                   projectName :"Integrated Eligibility System",
+                                   projectDescription :"An Integrated Eligibility System using Spring Boot , Microservices and React JS and MySql database. Crowdworkers register users,and collect information  and then an automated system determines eligibility for various plans. The system offers a user-friendly React JS frontend for efficient plan selection.",
                                    gitHubLink1:"https://github.com/Ashutosh692003/IES_UI.git",
                                    gitHubLink2:"https://github.com/Ashutosh692003/IES-Application.git"
 
@@ -12,15 +12,15 @@ const Project = () =>{
                             let project2 = {
                                 imgLink :"frontoffice_img.png",
                                 projectName :"Front Office Management System",
-                                projectDescription :"A Front Office Management System for educational institutions using  Thymeleaf, HTML, CSS, and Bootstrap for frontend, and java spring boot &  MVC architecture for backend. Streamlined office operations, improved efficiency, and enhanced user experience through intuitive interface.",
+                                projectDescription :"A Front Office Management System for educational institutions using  Thymeleaf, HTML, CSS, and Bootstrap for frontend, and java spring boot &  MVC architecture for backend & MySql as database. Streamlined office operations, improved efficiency, and enhanced user experience through intuitive interface.",
                                 gitHubLink :"https://github.com/Ashutosh692003/Front-Office-Management-Project.git",
                                  gitHubLink2:""
                          }
 
                          let project3 = {
-                            imgLink :"frontoffice_img.png",
+                            imgLink :"blog_img.png",
                             projectName :"Blog Application",
-                            projectDescription :"A blog application using Java, Thymeleaf, and MVC architecture. Users can create, edit, and publish posts and also have signup and login functionality, while dynamic content is efficiently managed through Thymeleaf templates.",
+                            projectDescription :"A blog application using Java, Thymeleaf,MySql database and MVC architecture . Users can create, edit, and publish posts and also have signup and login functionality, while dynamic content is efficiently managed through Thymeleaf templates.",
                             gitHubLink :"https://github.com/Ashutosh692003/Blog_Application.git",
                              gitHubLink2:""
                      }

@@ -16,8 +16,8 @@ const About = () =>{
           <p className="font-mullish text-white text-3xl">Get to <span className="text-lightBlue">know me</span></p>
                        
                         <div className="pt-5">
-                                         <p className="font-mullish text-white text-xl">Hii Everyone,I am <span className="text-lightBlue">Ashutosh</span> from <span className="text-lightBlue">Indore India</span></p>
-                                         <p className="font-mullish text-white text-xl">I am currently pursuing my <span className="text-lightBlue">Bachelor's</span> degree in <span className="text-lightBlue">Computer Science</span> from <span className="text-lightBlue">Swami Vivekanand College of Engineering ,Indore</span> </p>
+                                         <p className="font-mullish text-white text-xl">Hii Everyone,I am <span className="text-lightBlue">Ashutosh</span> from <span className="text-lightBlue">Indore India.</span></p>
+                                         <p className="font-mullish text-white text-xl">I am currently pursuing my <span className="text-lightBlue">Bachelor's</span> degree in <span className="text-lightBlue">Computer Science</span> from <span className="text-lightBlue">Swami Vivekanand College of Engineering ,Indore.</span> </p>
                                          <p></p>
 
                         </div>

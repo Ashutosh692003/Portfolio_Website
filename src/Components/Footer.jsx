@@ -3,6 +3,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { SiGithub } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () =>{
 
@@ -22,10 +23,10 @@ const Footer = () =>{
                          <div className="hidden md:inline-block">
                          <ul className="flex justify-center">
 
-<li><FaInstagram  color="pink" size={30}/></li>
-<li className="ml-3"><FaTwitter  color="blue"  size={30}/></li>
-<li  className="ml-3"><SiGithub  color="blue"  size={30}/></li>
-<li  className="ml-3"><FaLinkedin color="lightblue"  size={30}/>
+<li className="cursor-pointer"><FaInstagram  color="pink" size={30}/></li>
+<li className="ml-3"> <Link to="https://x.com/ashutosh_692003"><FaTwitter  color="blue"  size={30}/></Link></li>
+<li  className="ml-3"> <Link to="https://github.com/Ashutosh692003"><SiGithub  color="blue"  size={30}/></Link></li>
+<li  className="ml-3"><Link to="https://www.linkedin.com/in/ashutosh-mishra-b19b00239"><FaLinkedin color="lightblue"  size={30}/></Link>
 </li>
 </ul>
                          </div>
