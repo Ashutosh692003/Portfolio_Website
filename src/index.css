@@ -5,3 +5,43 @@
     /* So 100% means 100% */ 
     box-sizing: border-box; 
  }
+ @media (min-width: 300px) and (max-width: 400px) {
+    .container {
+       height:300px!important;
+    }  
+    
+    .left{
+         margin-left: 8vw;
+    }
+    .loaderMargin{
+         margin-top: 40vh;
+         margin-left: 32vw;
+    }
+    .cardHeight{
+         height: 20vh;
+    }
+    .cardPadding{
+         padding-top: 30%;
+         padding-bottom: 30%;
+         padding-left: 8vw;
+    }
+    .marginTop{
+         margin-top: 7px;
+    }
+    .center{
+         align-items: center;
+    }
+    .cardWidth{
+         width: 320px;
+         height: 580px;
+    }
+    .marginLeftRight{
+         margin-left: 20vw;
+         margin-right: 20vw;
+    }
+    .scale{ 
+        scale: .9;
+    }
+     
+}
+

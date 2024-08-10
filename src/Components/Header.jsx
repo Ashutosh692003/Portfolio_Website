@@ -21,7 +21,7 @@ const Header = () => {
         
           
       <div className={`h-[70px] w-[40%]    md:w-[20%] lg:w-[40%]`}>
-      <NavLink  className="cursor-pointer"  onClick={() => window.location.reload()}>  <p className="text-lightBlue300 text-2xl md:text-3xl pt-5 pl-10">AM</p></NavLink>
+      <NavLink to="/"  className="cursor-pointer"  >  <p className="text-lightBlue300 text-2xl md:text-3xl pt-5 pl-10">AM</p></NavLink>
       </div>
 
        
@@ -94,7 +94,7 @@ const Header = () => {
 
         <div className="md:hidden flex w-[100%] justify-end pr-[15%] pt-[8%]  ">
           <button id="menu-button" onClick={changeState} className='mb-[5%]'>
-            {isOpen ? <ImCross color="blue" size={30} /> : <TfiMenu color="blue" size={25} />}
+            {isOpen ? <ImCross color='#4b94ed' size={21} /> : <TfiMenu color='#4b94ed' size={25} />}
           </button>
         </div> 
       </div>
@@ -108,7 +108,7 @@ const Header = () => {
                
                           <NavLink  to="/" onClick={changeState} className="mb-4">
                       
-                          <TiHomeOutline color="white" size={23} className="inline-block -mt-2 mr-1" />
+                          <TiHomeOutline color="white" size={24} className="inline-block -mt-2 mr-1" />
                           <span className="text-white font-mullish text-xl">Home</span>
                           </NavLink>
                           <NavLink to="/about" onClick={changeState} className="mb-4">

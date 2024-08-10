@@ -26,7 +26,7 @@ const Resume = () => {
 
     return (
         <div className='bg-deepBlue bg-opacity-45  overflow-y-hidden flex flex-col justify-center bg-cover'>
-             <div className='ml-[30vw] mr-[30vw]  md:ml-[40vw] md:mr-[40vw] pt-16'>
+             <div className=' marginLeftRight ml-[30vw] mr-[30vw]  md:ml-[40vw] md:mr-[40vw] pt-16'>
               <a href={resumeUrl} download="Ashutosh_Resume.pdf">
                     <button className='bg-blue-500 text-white py-2 px-[1vw]  w-full  md:w-[18vw] md:px-4 rounded hover:bg-lightBlue300' > Download Resume <FaDownload className='inline-block'/></button>
                 </a>
@@ -36,13 +36,13 @@ const Resume = () => {
                        
             <Document file={resumeUrl}  onLoadSuccess={changeLoad} className="flex justify-center md:justify-center flex-auto">
                
-                    <Page pageNumber={1} scale={width>786 ? 1.4 : .6}  />
+                    <Page pageNumber={1} scale={width>786 ? 1.4 : .6}  className="scale"  />
               
             </Document>
 
             </div>
 
-           <div className='ml-[30vw] mr-[30vw] md:mr-[40vw]  md:ml-[40vw] pt-8 pb-10'>
+           <div className='  marginLeftRight ml-[30vw] mr-[30vw] md:mr-[40vw]  md:ml-[40vw] pt-8 pb-10'>
               <a href={resumeUrl} download="Ashutosh_Resume.pdf">
                     <button className='bg-blue-500 text-white py-2 w-full  md:w-[18vw] px-[1vw] md:px-4 rounded hover:bg-lightBlue300' > Download Resume <FaDownload className='inline-block'/></button>
                 </a>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const SmallProjectCard = ({data}) =>{
              
                  return (
-                    <div className="border border-lightBlue rounded-lg  h-[550px] w-[350px] hover:shadow-md hover:translate-[5px] hover:shadow-lightBlue300 transition-transform duration-300  md:ml-8 mt-8 pb-10 ">
+                    <div className="border border-lightBlue rounded-lg  h-[550px] cardWidth w-[350px] hover:shadow-md hover:translate-[5px] hover:shadow-lightBlue300   md:ml-8 mt-8 pb-10 ">
                                  
                              {/* image space */}   
                               <div className="flex h-[45%]">

@@ -9,10 +9,10 @@ import { Link } from "react-router-dom";
 const Home = () =>{
     return (             
                       <div className="  overflow-hidden" >
-                 <div className=    "   bg-deepBlue bg-opacity-45 flex flex-col md:flex-row pb-24   ">
+                 <div className=    "   bg-deepBlue bg-opacity-45 flex flex-col md:flex-row pb-24     ">
                                     
                                      {/* Part 1 */}
-                       <div className=" pt-[10vh] pl-[16vw] pr-[8vw] md:w-[50%] md:pl-[10vw] lg:pl-40 md:mt-40">
+                       <div className=" pt-[10vh] pl-[16vw] pr-[8vw] md:w-[50%] md:pl-[10vw] lg:pl-40 md:mt-40 container ">
                     
                       <p className="text-white font-mullish  text-3xl lg:text-4xl ">Hellow !!!</p>
                       <p className="text-white font-mullish  text-3xl lg:text-5xl mt-6 ">I am <span className="text-lightBlue">Ashutosh Mishra</span></p>
@@ -51,12 +51,12 @@ const Home = () =>{
                  </div>
                     {/*part2*/}
                          
-                    <div className=" md:pt-40  bg-deepBlue bg-opacity-35 pb-20">
-                                      <p className="text-white text-2xl ml-[26vw]  md:text-4xl md:ml-48 font-mullish md:mb-5">My  <span className="text-lightBlue">story</span> begins here</p> 
+                    <div className="   md:pt-40  bg-deepBlue bg-opacity-35 pb-20">
+                                      <p className="text-white text-2xl ml-[26vw] left md:text-4xl md:ml-48 font-mullish md:mb-5">My  <span className="text-lightBlue">story</span> begins here</p> 
                                            {/*slot1*/}
                                             
                                              <div className="flex flex-col md:flex-row ">
-                                                         <div className="w-[75vw] md:w-[60%] ml-[8vw]  md:ml-10 md:pl-8">
+                                                         <div className="w-[75vw] md:w-[60%] ml-[8vw]  md:ml-10 md:pl-8 left">
       <p className="text-white font-mullish text-lg mt-5" >My journey into programming started with curiosity and has led to a growing passion for problem-solving.</p>
                                                                 
                        <p className="text-white font-mullish text-lg mt-5">Well-versed in <span className="text-lightBlue">Java, JavaScript, and c++ programming languages.</span></p>
@@ -80,7 +80,7 @@ const Home = () =>{
                                                    <p className="font-mullish text-white text-center">Feel free to <span className="text-lightBlue">connect</span> with me</p>
                                                   
                                                   <div className="mt-5">
-                                        <ul className="flex justify-center">
+                                        <ul className="flex justify-center mr-1">
 
                                           <li className="cursor-pointer"><FaInstagram  color="pink" size={30}/></li>
                                           <li className="ml-3 cursor-pointer"> <Link to="https://x.com/ashutosh_692003"><FaTwitter  color="blue"  size={30}/></Link></li>

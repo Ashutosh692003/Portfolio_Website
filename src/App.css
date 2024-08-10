@@ -34,6 +34,12 @@
     }
  }
  
+ @media (min-width: 300px) and (max-width: 400px) {
+       .container{
+          height: 300px !important;
+       }            
+        
+ }
  
  
 
