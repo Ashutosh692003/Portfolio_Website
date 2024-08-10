@@ -31,7 +31,7 @@ const Resume = () => {
                     <button className='bg-blue-500 text-white py-2 px-[1vw]  w-full  md:w-[18vw] md:px-4 rounded hover:bg-lightBlue300' > Download Resume <FaDownload className='inline-block'/></button>
                 </a>
                 </div>
-                      {load &&  <div  className='h-[60vh] '> <div className='spinner ml-[40vw] mr-[40vw]  md:ml-[46%] mt-[20%]'></div> </div>}
+                      {load &&  <div  className='h-[60vh] '> <div className='spinner ml-[30vw] mr-[40vw] mt-[40%] md:ml-[46%] md:mt-[20%]'></div> </div>}
               <div className='justify-center overflow-hidden h-full mt-[10vh] mb-[10vh]'>
                        
             <Document file={resumeUrl}  onLoadSuccess={changeLoad} className="flex justify-center md:justify-center flex-auto">
