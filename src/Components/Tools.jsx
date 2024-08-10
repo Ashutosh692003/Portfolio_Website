@@ -17,7 +17,7 @@ const Tools = () =>{
                 
                  
         <div className="pb-24      md:pl-20 w-[90%] md:pr-20 ">
-        <p className="font-mullish text-white text-3xl text-center pr-[10vw] md:pr-[22%] pb-14 pt-10 pl-[10vw] md:pl-[18%] ">My <span className="text-lightBlue">toolkit</span></p>
+        <p className="font-mullish text-white text-3xl text-center pr-[10vw] md:pr-[22%] pb-14 pt-10 pl-[10vw] md:pl-[13%] ">My <span className="text-lightBlue">toolkit</span></p>
         <div className=" flex flex-wrap">
                           
              

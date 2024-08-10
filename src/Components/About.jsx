@@ -36,7 +36,7 @@ const About = () =>{
 {/*part 2 */}
 
 
-<div className="ml-[10%] mr-[10%">
+<div className="ml-[10%] mr-[10">
                          
              <Skillset/>   
              <Tools/>                      
