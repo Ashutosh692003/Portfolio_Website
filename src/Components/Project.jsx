@@ -30,7 +30,7 @@ const Project = () =>{
         <div className=" bg-deepBlue bg-opacity-45 overflow-x-hidden  bg-cover  ">
                         <p className="text-white text-3xl font-mullish text-center pt-16"> Recent <span className="text-lightBlue">Projects</span></p>  
                         <p className="text-white text-md font-mullish text-center">Here are a few projects i worked recently</p>
-                   <div className=" flex pt-16  2xl:h-[100vh]   flex-col md:ml-28 md:mr-28 pb-16 items-center md:flex-row md:justify-between overflow-x-hidden flex-wrap">
+                   <div className=" flex pt-16  2xl:h-[100vh]  overflow-y-hidden  flex-col md:ml-28 md:mr-28 pb-16 items-center md:flex-row md:justify-between overflow-x-hidden flex-wrap">
                                       
                         {
                                 projects.map((project)=>(
